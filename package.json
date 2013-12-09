@@ -1,0 +1,27 @@
+{
+    "author": "Maxim Gnatenko",
+    "name": "clean-hashtag",
+    "description": "Free your favorite twitter hashtag from spammers (at least for you)",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Magomogo/clean-hashtag"
+    },
+    "scripts": {
+        "posttest": "jshint ./src ./tests ./scripts",
+        "test": "mocha ./tests/*.test.js"
+    },
+    "dependencies": {
+        "ntwitter": "https://github.com/crscastillo/ntwitter/tarball/master",
+        "request": "~2.29.0",
+        "lodash": "~2.4.1"
+    },
+    "devDependencies": {
+        "jshint": "~2.1.11",
+        "mocha": "~1.13.0"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
